@@ -1,8 +1,14 @@
+
+pip install joblib
+pip install nltk
+
 import streamlit as st
 import nltk
 from nltk import NaiveBayesClassifier
 from nltk.classify import apply_features
 from joblib import load
+
+
 
 # Download NLTK resources if not already downloaded
 nltk.download('names')
